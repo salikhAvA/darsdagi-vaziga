@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(44, 34, 34);
+}
+body  {
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 1200px;
+    margin: 19px auto ;
+    background-color: white;
+    padding: 40px 0 40px 40px;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-ta {
+    width: 50%;
+}
+.box-one {
+    width: 500px;
+}
+.title {
+    margin-bottom: 40px;
+}
+.text {
+    margin-bottom: 40px;
+}
+li {
+    /* text-align: center; */
+    list-style-type: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid rgb(224, 224, 224);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+li > img {
+    margin-right: 120px;
+}
+.footer {
+    display: inline-block;
+}
+.horisonatll {
+    width: 600px;
+    margin-bottom: 50px;
+    background-color: rgb(96, 93, 93);
+}
+.para {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text {
+    text-transform: uppercase;
+}
